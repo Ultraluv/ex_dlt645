@@ -52,6 +52,7 @@ defmodule ExDlt645.MixProject do
       main: "readme",
       source_url: @source_url,
       source_ref: "v#{@version}",
+      formatters: ["html"],
       extras: ["README.md", "CHANGELOG.md", "LICENSE"]
     ]
   end
